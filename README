@@ -1,0 +1,82 @@
+PRÁCTICA 1 de HLC:
+HTML5 y CSS3
+Fecha entrega Jueves, 5 de diciembre. Fecha defensa Jueves, 5 de diciembre.
+Tipo En grupos de 3 o 4 personas Asunto e-mail HLC-P01
+Formato fichero ApellidoNombre_del coordinador_HLC-P01.zip (por google Dirve)
+Desarrolla una aplicación Web utilizando HTML5 (estructura) y CSS3 (diseño) para un curso en ingles
+sobre una tecnología de desarrollo de software: dockers, git, kubernetes, core.net, firebase, framworks,
+etc. Os podéis basar en uno o varios curso de openwebinars.
+1.- Elementos HTML5:
+1.1.- En el header aparecerán los nombres y primer apellido de los autores y debe tener varias
+secciones accesibles desde el NAV y el FOOTER
+1.2.- Puntos a contener (https://www.w3schools.com/html/):
+HTML Forms
+HTML5 (Semantic Elements, Style Guide)
+HTML Graphics
+HTML Media
+HTML APIs
+HTML Graphics
+2.- Etiquetas, atributos y estructura HTML5 a usar.
+(https://www.w3schools.com/html/html5_semantic_elements.asp
+https://codepen.io/mi-lee/post/an-overview-of-html5-semantics)
+!DOCTYPE html
+html: lang
+head
+title
+meta: charset, name (description, keywords) y Content
+link (rel,href, types no en HTML5).
+body
+header
+hgroup
+h1...
+nav (o dentro header)
+ul (lista)
+li (Elementos lista)
+section
+article (contenido independiente relacionado)
+header
+article
+header
+aside (Barra lateral)
+footer (Pié de página)
+Otras etiquetas:
+figure
+img
+figcaption
+mark, small, cite
+Cuidado con acentos (utf-8, &?acute;).3.- CSS3.
+3.1.- Se usaran ficheros externos: ficheros CSS referenciados (link y href). NO se pueden usar
+estilos de línea (style), ni embebidos (en la cabecera / head).
+3.2.- Aplicar modos de referencia por:
+Etiquetas (por ejemplo p)
+Id (para elemntos generales)
+Class, por otros atributos (PE name) y referencias o comodines (^ $ *)
+Aplicar en una tabla: pseudo clases (hijos con nth-child(), idd, even, first-child(), last-
+child(), only-child)
+Otras pseudo clases o selectores (> + ~) o cualquier atributo. Comodines ^, $ y *.
+3.3.- Usar estilos: margin, padding, font (diferentes font), text-aling, width (%), background,
+border, display, list-style, display (block e inline-block), float. clear
+4.- Se debe trabajar con git.
+5.- Se valora la estética y la funcionalidad.
+Estructura de caja.
+Adaptar al ancho de la pantalla (widtn: 90%)
+Redondear esquinas (Border-radius).
+Otras: margin, padding, text-align box-shandow (sombreado), text-shadow, font-face (mas
+estilos de fuentes: font squirril), background (gradiantes)
+Cuidado con los diferentes navegadores.
+6.- Los ficheros deben ser validados en “https://validator.w3.org/”
+7.- Uso de herramientas de desarrollo o debug (Firebug, Chrome DevTools, etc. )
+8.- Debe ser trabajo colaborativo:
+Habrá un seguimiento especial en clase:
+Se valora especialmente la participación y capacidad de investigación
+Se defenderá en el cañón.
+Podrá haber cambios en las especificaciones y requisitos de la práctica.
+Ayuda:
+Test de etiquetas HTML5:
+http://www.w3schools.com/tags/
+Editor de HTML5 y CSS3:
+http://liveweave.com/ (Prueba <div class="sidebar-container"y <ul class="sidebar-left"> )
+http://www.cssportal.com/online-css-editor/
+http://scratchpad.io/steep-breath-569
+http://www.cssdesk.com/
+https://html5-editor.net/
