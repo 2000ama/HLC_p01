@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <title>contenido6</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <section>
+        <h2>Tipos de datos primitivos</h2>
+        <article>
+            <header>
+                <h2>number</h2>
+            </header>
+            <p>Engloba cualquier tipo de número, ya sea positivo, negativo o con decimales. Podemos realizar cualquier tipo de operación básica como sumar, restar, multiplicar o dividir, ademas de poder compararlos</p>
+            <p>También podemos hacer uso de otras herramientas como:</p>
+            <table>
+                <tr>
+                    <td>typeof variable</td>
+                    <td>Devuelve el tipo de variable</td>
+                </tr>
+                <tr>
+                    <td>isNaN(variable)</td>
+                    <td>Verdadero si la variable parámetro no es un número</td>
+                </tr>
+                <tr>
+                    <td>variable.toString()</td>
+                    <td>Devuelve la variable como cadena</td>
+                </tr>
+                <tr>
+                    <td>variable.toFixed()</td>
+                    <td>Devuelve la variable redondeada a tanto decimales cono indiquemos</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <header>
+                <h2>String</h2>
+            </header>
+            <p>Es cualquier cadena de caracteres o texto. Podemos concatenar cadenas, compararlas…</p>
+            <p>Para concatenar cadenas nos vale con hacer ‘variable1’ + ‘variable2’</p>
+            <p>Otras herramientas son:</p>
+            <table>
+                <tr>
+                    <td>typeof variable</td>
+                    <td>Igual que con los números, devuelve el tipo de variable</td>
+                </tr>
+                <tr>
+                    <td>variable.lenght</td>
+                    <td>Indica la cantidad de caracteres que contiene la cadena</td>
+                </tr>
+                <tr>
+                    <td>variable.includes(‘cadena’)</td>
+                    <td>Verdadero si la variable (tipo texto)  contiene la cadena especificada</td>
+                </tr>
+                <tr>
+                    <td>variable.slice(inicio, final)</td>
+                    <td>Devuelve una cadena entre las dos cifras indicadas</td>
+                </tr>
+                <tr>
+                    <td>variable.replace(esto, esto_otro)</td>
+                    <td>Intercambia el contenido de una cadena con otro</td>
+                </tr>
+                <tr>
+                    <td>variable.trim()</td>
+                    <td>Limpia los espacios de una cadena que se entren antes o después</td>
+                </tr>
+                <tr>
+                    <td>variable.split(‘separador’)</td>
+                    <td>Devuelve un array con las cadenas separadas por el separador</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <header>
+                <h2>Boolean</h2>
+            </header>
+            <p>Tipo de dato que almacena el estado de una variable. Solo puede ser true o false</p>
+            <p>Para hacer uso de este tipo de dato, usamos Boolean(expresion). Lo cual nos devolverá el resultado</p>
+        </article>
+        <article>
+            <header>
+                <h2>Otros tipos de datos</h2>
+            </header>
+            <p>También existe otro tipo de datos los cuales se utilizan para indicar la ausencia de valor, estos son undefined y null</p>
+            <p>undefined es el valor que nos devolverá una variable que hemos declarado en algún punto del ámbito actual pero que no se le ha asignado un valor</p>
+            <p>Por otro lado null es el valor que nos devolverá una variable sin un valor establecido. Debemos asignarle a una variable el valor null para que esta no tenga valor. También hay que decir que se le asignamos a una variable el valor null, el typeof de esta variable nos devolverá object </p>
+        </article>
+    </section>
+</body>
+</html>
