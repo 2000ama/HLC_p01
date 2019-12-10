@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="description" content="Práctica HLC"/>
+		<meta name="keywords" content="HTML,CSS"/>
+		<meta name="author" content="Antonio Martinez Algar"/>
+		<meta name="author" content="Antonio Jesús Pacheco Tortosa"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="../css/grafica.css"/>
+		<title>Grafica de codigo</title>
+	</head>
+
+	<body>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+		<canvas id="diagrama"></canvas>
+		<script>
+			new Chart(document.getElementById("diagrama"), {
+				type: 'pie',
+				data: {
+				  labels: ["HTML", "JavaScript", "CSS"],
+				  datasets: [{
+					label: "Population (millions)",
+					backgroundColor: ["#eb984e", "#8e5ea2","#f7dc6f"],
+					data: [72.9,25.2,19]
+				  }]
+				},
+				options: {
+				  title: {
+					display: true,
+					text: 'Porcentaje del código utlilizado'
+				  }
+				}
+			});
+
+		</script>
+
+	</body>
+
+</html>
